@@ -2,7 +2,7 @@ import { When } from '@cucumber/cucumber'
 import axios from 'axios'
 import { expect } from 'chai'
 import { browser } from '@wdio/globals'
-import rn from '../../pageobjects/procurement/invoice-page'
+import rn from '../../../pageobjects/Procurement/nov-1/order/retur-nota-page.ts'
 
 When ('User click menu order', async () => {
     await rn.menuOrder.waitForDisplayed();
