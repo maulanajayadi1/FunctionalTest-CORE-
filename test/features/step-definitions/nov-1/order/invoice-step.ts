@@ -2,7 +2,7 @@ import { When } from '@cucumber/cucumber'
 import axios from 'axios'
 import { expect } from 'chai'
 import { browser } from '@wdio/globals'
-import invoice from '../../pageobjects/procurement/invoice-page'
+import invoice from '../../../pageobjects/Procurement/nov-1/order/invoice-page.ts'
 
 When ('User open an invoice contains sku flash sale', async function () {
     await browser.navigateTo('https://v3-web-app-micro.staging.superapp.co.id/order/penjualan/invoice/1435422364');
